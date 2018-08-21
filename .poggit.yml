@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/InkoHX/getDevice
+branches:
+- master
+projects:
+  getDevice:
+    path: ""
+...
