@@ -18,15 +18,15 @@ use pocketmine\utils\MainLogger;
 class getDevice extends PluginBase implements Listener
 {
     const START_MESSAGE = "
-    
-    §b            __  ___           _        
-    §b  ___ ____ / /_/ _ \___ _  __(_)______ 
+
+    §b            __  ___           _
+    §b  ___ ____ / /_/ _ \___ _  __(_)______
     §b / _ `/ -_) __/ // / -_) |/ / / __/ -_)
-    §b \_, /\__/\__/____/\__/|___/_/\__/\__/ 
-    §b/___/                                  
-    
+    §b \_, /\__/\__/____/\__/|___/_/\__/\__/
+    §b/___/
+
     §7          Developer: §eInkoHX
-    
+
     ";
 
     const OS = [
