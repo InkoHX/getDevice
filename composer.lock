@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95fd63fc299d767ea9d28a508e8dc1b6",
+    "content-hash": "ec2e38a5f234c9b0340c512271adc346",
     "packages": [
         {
             "name": "fgrosse/phpasn1",
@@ -149,11 +149,11 @@
         },
         {
             "name": "pocketmine/binaryutils",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/BinaryUtils",
-                "reference": "c824ac67eeeb6899c2a9ec91a769eb9ed6e3f595"
+                "reference": "54efeb978be0ff9335022729fe63c1e2077bf1be"
             },
             "require": {
                 "php": ">=7.2",
@@ -169,7 +169,7 @@
                 "LGPL-3.0"
             ],
             "description": "Classes and methods for conveniently handling binary data",
-            "time": "2018-04-16T09:05:08+00:00"
+            "time": "2018-08-26T18:11:05+00:00"
         },
         {
             "name": "pocketmine/math",
@@ -197,11 +197,11 @@
         },
         {
             "name": "pocketmine/nbt",
-            "version": "0.2.0",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/NBT",
-                "reference": "da19487ff92f6f7a16b5ce8894132bb1d1e9ea0c"
+                "reference": "474f0cf0a47656d0122b4f3f71302e694ed6977b"
             },
             "require": {
                 "php": ">=7.2.0",
@@ -223,23 +223,21 @@
                 "LGPL-3.0"
             ],
             "description": "PHP library for working with Named Binary Tags",
-            "time": "2018-06-13T09:56:00+00:00"
+            "time": "2018-10-12T08:26:44+00:00"
         },
         {
             "name": "pocketmine/pocketmine-mp",
-            "version": "dev-master",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/VectorNetworkProject/PocketMine-MP",
-                "reference": "2022fc6974f85e3422921ec49820317b95443840"
+                "url": "https://github.com/pmmp/PocketMine-MP",
+                "reference": "200de3fe8460d180a4fd9f5a0e0768bd3085fd50"
             },
             "require": {
                 "ext-bcmath": "*",
-                "ext-crypto": "^0.3.1",
                 "ext-ctype": "*",
                 "ext-curl": "*",
                 "ext-date": "*",
-                "ext-gmp": "*",
                 "ext-hash": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
@@ -253,12 +251,11 @@
                 "ext-yaml": ">=2.0.0",
                 "ext-zip": "*",
                 "ext-zlib": ">=1.2.11",
-                "mdanter/ecc": "^0.5.0",
                 "php": ">=7.2.0",
                 "php-64bit": "*",
                 "pocketmine/binaryutils": "^0.1.0",
                 "pocketmine/math": "^0.2.0",
-                "pocketmine/nbt": "^0.2.0",
+                "pocketmine/nbt": "^0.2.1",
                 "pocketmine/raklib": "^0.12.0",
                 "pocketmine/snooze": "^0.1.0",
                 "pocketmine/spl": "^0.3.0"
@@ -281,7 +278,7 @@
             ],
             "description": "A server software for Minecraft: Pocket Edition written in PHP",
             "homepage": "https://pmmp.io",
-            "time": "2018-08-20T07:49:28+00:00"
+            "time": "2018-11-11T11:58:25+00:00"
         },
         {
             "name": "pocketmine/raklib",
@@ -340,11 +337,11 @@
         },
         {
             "name": "pocketmine/spl",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/SPL",
-                "reference": "ca3912099543ddc4b4b14f40e258d84ca547dfa5"
+                "reference": "7fd53857cd000491ba69e8db865792a024dd2c49"
             },
             "type": "library",
             "autoload": {
@@ -359,29 +356,26 @@
                 "LGPL-3.0"
             ],
             "description": "Standard library files required by PocketMine-MP and related projects",
-            "time": "2018-06-09T17:30:36+00:00"
+            "time": "2018-08-12T15:17:39+00:00"
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "3.1.3",
-            "alias_normalized": "3.1.3.0",
-            "version": "9999999-dev",
-            "package": "pocketmine/pocketmine-mp"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ext-pthreads": 20,
-        "pocketmine/pocketmine-mp": 20
+        "ext-pthreads": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.2.0",
+        "php-64bit": "*",
         "ext-bcmath": "*",
         "ext-curl": "*",
+        "ext-crypto": "^0.3.1",
+        "ext-ctype": "*",
+        "ext-date": "*",
+        "ext-gmp": "*",
         "ext-hash": "*",
         "ext-json": "*",
         "ext-mbstring": "*",

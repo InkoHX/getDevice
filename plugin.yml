@@ -1,4 +1,9 @@
 name: getDevice
 main: InkoHX\getDevice
-api: 4.0.0
+api: [3.0.0, 4.0.0]
+
+description: 'プレイヤーのデバイス情報を取得する。'
+author: InkoHX
 version: 1.0.0
+prefix: Device
+website: https://twitter.com/InkoHX
