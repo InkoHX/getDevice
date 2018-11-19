@@ -9,6 +9,7 @@
 namespace InkoHX;
 
 
+use InkoHX\api\Device;
 use InkoHX\event\DataPacketReceive;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
@@ -35,5 +36,13 @@ class getDevice extends PluginBase
     public static function getData(): Config
     {
         return self::$data;
+    }
+
+    /**
+     * @return Device
+     */
+    public function getAPI(): Device
+    {
+        return new Device();
     }
 }
